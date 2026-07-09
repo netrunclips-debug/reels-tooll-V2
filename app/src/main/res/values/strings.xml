@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GestureTikTok</string>
+    <string name="accessibility_service_label">GestureTikTok Gesture Control</string>
+    <string name="accessibility_service_description">Enables hands-free control of TikTok using facial gestures</string>
+    
+    <!-- MainActivity strings -->
+    <string name="main_title">Gesture TikTok Control</string>
+    <string name="permission_camera">Camera Permission</string>
+    <string name="permission_overlay">Display Overlay Permission</string>
+    <string name="permission_accessibility">Accessibility Service</string>
+    <string name="grant_camera_permission">Grant Camera Access</string>
+    <string name="grant_overlay_permission">Grant Overlay Permission</string>
+    <string name="enable_accessibility">Enable Accessibility Service</string>
+    <string name="start_button">Start Gesture Recognition</string>
+    <string name="stop_button">Stop</string>
+    <string name="status_ready">Ready</string>
+    <string name="status_running">Running</string>
+    <string name="status_stopped">Stopped</string>
+    
+    <!-- Gesture names -->
+    <string name="gesture_right_wink">Right Wink (Scroll Down)</string>
+    <string name="gesture_left_wink">Left Wink (Scroll Up)</string>
+    <string name="gesture_mouth_open">Mouth Open (Like)</string>
+    <string name="gesture_smile">Smile (Like)</string>
+    
+    <!-- Overlay strings -->
+    <string name="overlay_status_label">Status: Face Detected</string>
+    <string name="overlay_status_no_face">No Face Detected</string>
+    
+    <!-- Settings -->
+    <string name="pref_sensitivity">Gesture Sensitivity</string>
+    <string name="pref_sensitivity_summary">Adjust detection thresholds</string>
+    <string name="pref_debounce">Debounce Cooldown (ms)</string>
+    <string name="pref_wink_threshold">Wink Eye Aspect Ratio Threshold</string>
+    <string name="pref_mouth_threshold">Mouth Open Ratio Threshold</string>
+    
+    <!-- Errors and warnings -->
+    <string name="error_camera_unavailable">Camera is not available</string>
+    <string name="error_camera_permission_denied">Camera permission denied</string>
+    <string name="warning_accessibility_not_enabled">Accessibility service not enabled. Gestures will not control TikTok.</string>
+</resources>
